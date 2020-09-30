@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title> Ginti - 1</title>
+</head>
+
+<body>
+  <h1> Sab aadaad - 36</h1>
+  <!-- {{ sabAdad }} -->
+  <a href="{% url 'new_adad' %}">Add a new entry</a>
+  <br><br>
+
+  {% for entry in sabAdad %}
+    {{ entry.num }} <br>
+    {{ entry.sqr }} <br>
+    <a href = "{% url 'full_detail' pk=entry.pk %}">{{ entry.sound }}</a><br>
+    <hr>
+  {% endfor %}
+</body>
+</html>

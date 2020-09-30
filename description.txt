@@ -1,0 +1,9 @@
+This project stores an integer, its square and its
+textual description in a table/model.
+
+Following functionalities are supported.
+- All entries can be displayed in one page
+- Full details about a specific entry can
+  be displayed on a page
+- A new entry can be created through a form.
+- A specific entry can be modified through a form.
